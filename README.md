@@ -30,6 +30,10 @@ The project was created using the following command:
 ```shell
 npx create-expo-app -t expo-template-blank-typescript
 ```
+Before executing, don't forget :
+```shel
+npm i
+```
 
 It is possible to launch the application in an Android and/or iOS emulator:
 
@@ -43,15 +47,19 @@ npx expo start
 ```
 
 ==== MENU ===
+
 <img src="./projectImages/menu.jpeg" alt="drawing" width="200"/>
 
 ==== NOUVEAU (NEW) ====
+
+
 <img src="./projectImages/new.jpeg" alt="drawing" width="200"/>
 
 
 === ACTIONS ====
 
 If we swipe the element we can finish, unfinish or delete the task.
+
 <img src="./projectImages/actions.jpeg" alt="drawing" width="200"/>
 
 If we want to delete all the elements we have to click on the delete button from the menu and all will be deleted.
