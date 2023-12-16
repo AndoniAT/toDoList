@@ -1,45 +1,57 @@
 # Todo List
 
-|   Nom   | Prénom |
-|---------|--------|
-|   Doe   |  Jane  |
+|   Nom           | Prénom   |
+|-----------------|----------|
+|   ALONSO TORT   |  Andoni  |
 
-Le TP est à réaliser individuellement.
 
-## Technologies requises
+## Required technologies
 
-Vous allez avoir besoin des technologies suivantes :
-- [Android Studio](https://developer.android.com/studio "Android Studio") ainsi que la [JDK 20+](https://www.oracle.com/fr/java/technologies/downloads "JDK")
+You will need the following technologies:
+- [Android Studio](https://developer.android.com/studio "Android Studio") and also [JDK 20+](https://www.oracle.com/fr/java/technologies/downloads "JDK")
 - [NodeJS LTS](https://nodejs.org/fr "NodeJS")
 
-## Travail à réaliser
 
-Accueil                                                           |  Ajout d'une tâche à réaliser
-:----------------------------------------------------------------:|:-------------------------:
-![First screen](./docs/img/first-screen.png "First screen")  |  ![Second screen](./docs/img/second-screen.png "First screen")
-
-Le but de cette application est de créer un gestionnaire de tâches à réaliser (TAR).
-
+The purpose of this application is to create a task manager (TAR).
 L'application doit comprendre les fonctionnalités suivantes :
 
-- [ ] Visualiser les TAR en cours et finalisées
-- [ ] Supprimer l'ensemble des TAR
-- [ ] Ajouter une TAR. Les TAR doivent persister.
-- [ ] Possibilité de passser le statut d'une TAR `complétée` au statut `en cours` (et inversement)
-- [ ] Possibilité de balayer (swipe) les TAR dans les listes pour les supprimer.
+- [ ] View current and finalized TARs
+- [ ] Delete all TARs
+- [ ] Add an ART. ART must persist.
+- [ ] Possibility of changing the status of an ART from 'completed' to 'in progress' (and vice versa)
+- [ ] Ability to swipe the TARs in the lists to delete them.
 
-Il est bien sûr autorisé de donner du style à l'application. De plus, il est imposé d'utiliser `Expo.SecureStore` pour la persistance des données.
+`Expo.SecureStore` used for data persistence.
 
 ## Informations
 
-Le projet a été créé l'aide de la commande suivante :
+The project was created using the following command:
 
 ```shell
 npx create-expo-app -t expo-template-blank-typescript
 ```
 
-Il est possible de lancer l'application dans un émulateur Android et/ou iOS :
+It is possible to launch the application in an Android and/or iOS emulator:
 
 ```shell
 npx expo run:android  # npx expo run:ios
 ```
+If you encounter some problems with the last command you can also try
+
+```shell
+npx expo start
+```
+
+==== MENU ===
+<img src="./projectImages/menu.jpeg" alt="drawing" width="200"/>
+
+==== NOUVEAU (NEW) ====
+<img src="./projectImages/new.jpeg" alt="drawing" width="200"/>
+
+
+=== ACTIONS ====
+
+If we swipe the element we can finish, unfinish or delete the task.
+<img src="./projectImages/actions.jpeg" alt="drawing" width="200"/>
+
+If we want to delete all the elements we have to click on the delete button from the menu and all will be deleted.
